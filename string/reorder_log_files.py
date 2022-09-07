@@ -17,3 +17,13 @@ def solution(logs :List[str]) -> List[str]:
 
 
 print(solution(TEST_CASE))
+
+
+def test(fuc,arg):
+    print(fuc(arg))
+
+def fuc(x):
+    return x * 2
+
+test(fuc,4)
+test(lambda x: x * 2,4)
